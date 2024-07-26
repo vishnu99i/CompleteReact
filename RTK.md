@@ -1,7 +1,21 @@
 # React Redux Toolkit
 
-React Redux Toolkit [RTK Notes](https://www.markdownguide.org/basic-syntax/).
+React Redux Toolkit [RTK Notes](https://www.markdownguide.org/basic-syntax/).  
+React Redux Toolkit [RTK Notes](https://gemini.google.com/app/44c288e91f9070f2?hl=en-IN
+).
 
+- configureStore => Create main store  
+- createSlice => Group data  
+- useSelector => Get information from storage 
+- useDispatch => To change the information, rooms use useDispatch to send requests (actions) to the storage room  
+- reducers => When a room sends a request (action), the storage room uses special rules (reducers) to update the data  
+- A reducer is a pure function that takes the current state and an action as input and returns a new state as output  
+- Based on the action, the reducer creates a new state object with the necessary changes  
+- It's important to remember that reducers should always return a new state object and not modify the existing state directly  
+- state         => Represents the previous state of the application and state contains values from initial state
+- action        => Contains information about what change should be made to the state  
+- Action type(sliceName/reducerName)   => A simple message saying something happened  
+- Action payload => More information about what happened  
 
 ## What is Redux Toolkit?
 Imagine your app is a house. Redux Toolkit helps you manage all the stuff (data) in your house. It keeps everything organized and accessible.
